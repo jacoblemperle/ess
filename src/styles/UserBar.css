@@ -1,0 +1,24 @@
+.main-section {
+    margin-top: 4px;
+    height: 100px;
+    width: 80%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.role{
+    text-align: center;
+}
