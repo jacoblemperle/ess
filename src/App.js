@@ -9,11 +9,11 @@ class App extends Component {
           <nav className="header-bar"></nav>
           <div className="sidebar-nav"></div>
           <div className="main-content">
-              <div className="top-section">
+              <div className="supervisor-section">
                   <UserBar />
                   <UserBar />
               </div>
-              <div className="bottom-section">
+              <div className="help-section">
 
               </div>
           </div>
