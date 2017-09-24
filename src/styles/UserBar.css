@@ -13,6 +13,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .userImg {

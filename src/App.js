@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import './styles/App.css';
 import UserBar from './components/UserBar';
 import maleImage from './assets/male-face.jpeg'
-
+import essLogo from './assets/Extra_Space_Storage_logo.png'
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <nav className="header-bar"></nav>
+          <nav className="header-bar">
+            <img id="essLogo" src={essLogo} alt=""/>
+            <a href="www.google.com" id="logOutBtn">Log Out</a>
+          </nav>
           <div className="sidebar-nav">
             <div className="sidebar-profile">
               <div className="sidebar-profileContainer">

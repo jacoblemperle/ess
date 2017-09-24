@@ -16,10 +16,11 @@ p {
     padding-top: 80px;
     height: 100%;
     width: 20%;
+    min-width: 220px;
     left: 0;
     top: 0;
     z-index: -1;
-    background-color:lightslategray;
+    background-color:#888c8f;
 }
 
 .main-content {
@@ -55,6 +56,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     flex-direction: column;
     margin-top: 50px;
     font-size: 24px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
 
 
 }
@@ -72,4 +76,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     display:flex;
     
 
+}
+
+#essLogo {
+    position: absolute;
+    padding-left: 5%;
+    height: 80px;
+    width: 175px;
+
+}
+
+#logOutBtn {
+    position:absolute;
+    padding-left: 96%;
+    margin-top:5px;
+    min-width:30px;
 }
