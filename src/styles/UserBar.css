@@ -1,15 +1,14 @@
 .userhelp-bar {
     width: 85%;
     height: 150px;
-   background: rgba(255,255,255,1);
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(136,140,143,1)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(136,140,143,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(136,140,143,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#888c8f', GradientType=0 );
-    padding: 25px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -17,7 +16,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .userImg {
-    margin-right: 8%;
+    margin-left: 5%;
     height: 100px;
 }
 .uImg {
@@ -28,7 +27,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 8%;
+    margin-left: 10%;
     height: 100px;
 }
 .uName {
@@ -40,5 +39,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .userStatus {
+    margin-left: 25%;
+}
 
+.uStatus {
+    font-size: 30px;
+    font-weight: bold;
 }
